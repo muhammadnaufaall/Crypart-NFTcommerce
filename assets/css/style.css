@@ -1,0 +1,210 @@
+@font-face {
+  font-family: fontwhyteinktrap;
+  src: url(/assets/fonts/ABCWhyteInktrap-Regular-Trial.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+body {
+  background-image: url(/assets/images/background.png);
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.navbar {
+  margin-top: 40px;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 49px;
+  background-color: transparent;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.nav-logo {
+  font-weight: 600;
+  font-size: 24px;
+  color: #171717;
+  cursor: pointer;
+}
+
+.links {
+  color: #f1f1f1;
+  font-weight: normal;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.links:hover {
+  color: #3a3a3a;
+}
+
+.links .active {
+  color: #141414;
+}
+
+.active {
+  color: #141414;
+}
+
+.btn-login {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(45px);
+  padding: 10px 18px;
+  border: 1.5px solid #f1f1f1;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+  background: rgba(39, 39, 39, 0.1);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  margin-top: 175px;
+  font-family: fontwhyteinktrap;
+  width: 479px;
+  font-size: 68px;
+  line-height: 116%;
+  color: #171717;
+}
+
+.desc-title {
+  margin-top: 28px;
+  margin-bottom: 64px;
+  width: 390px;
+  font-size: 20px;
+  line-height: 140%;
+  color: #525252;
+}
+
+.btn-hero {
+  display: flex;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #171717;
+  padding: 14px 32px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #252525;
+}
+
+.btn-secondary {
+  color: #171717;
+  padding: 14px 32px;
+  border: 1.5px solid #353535;
+  transition: 0.3s ease-in-out;
+  background-color: transparent;
+  margin-left: 24px;
+}
+
+.btn-secondary:hover {
+  color: #171717;
+  border: 1.5px solid #fff;
+}
+
+.arrow {
+  padding-left: 10px;
+}
+
+.bg-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  box-shadow: 0px 40px 120px rgba(100, 65, 88, 0.16);
+  backdrop-filter: blur(121px);
+  margin-top: 71px;
+}
+
+.container-card {
+  padding: 37px 32px;
+}
+
+.profile {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 38px;
+}
+
+.name-maker {
+  margin-left: 16px;
+}
+
+.nft-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #010101;
+}
+
+.nft-maker {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.005em;
+  color: #737373;
+  margin-top: 8px;
+  mix-blend-mode: multiply;
+}
+
+.info-nft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.info {
+  font-size: 18px;
+  line-height: 21px;
+  color: #737373;
+  mix-blend-mode: multiply;
+}
+
+.main-info {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #010101;
+}
+
+.btn-bid {
+  color: #fff;
+  background: #171717;
+  padding: 14px 32px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-bid:hover {
+  background: #252525;
+}
